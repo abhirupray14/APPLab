@@ -64,7 +64,7 @@ void delMax(int *arr,int n)
 		{
 			int temp = arr[i];
 			arr[i] = arr[maxIndex];
-			arr[maxIndex] = arr[i];
+			arr[maxIndex] = temp;
 			i = maxIndex;
 		}
 		else 
